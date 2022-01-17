@@ -1,0 +1,27 @@
+* {
+    overflow: hidden;
+}
+
+body {
+   width: 100%;
+}
+
+.body__inner {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+}
+
+.header__inner {
+    width: 100%;
+    display: flex;
+}
+
+.logo img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}

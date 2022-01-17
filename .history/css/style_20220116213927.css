@@ -1,0 +1,11 @@
+* {
+    overflow: hidden;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    width: 100%;
+}

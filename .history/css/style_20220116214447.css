@@ -1,0 +1,22 @@
+* {
+    overflow: hidden;
+}
+
+body {
+   
+}
+
+header {
+    width: 100%;
+}
+
+.header__inner {
+    width: 100%;
+    display: flex;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+}

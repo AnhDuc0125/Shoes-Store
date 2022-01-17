@@ -1,0 +1,61 @@
+* {
+    overflow: hidden;
+}
+
+body {
+   width: 100%;
+}
+
+.body__inner {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 150px;
+    height: 85px;
+    object-fit: contain;
+}
+
+.item__link {
+    text-decoration: none;
+    color: black;
+    margin: 0 75px;
+    fz35px
+}
+
+.nav--plus {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input__field {
+    width: 180px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    border: 1px solid black;
+}
+
+.input__field  .input__box {
+    width: 100%;
+    height: 90%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
